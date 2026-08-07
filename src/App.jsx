@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import ProductList from './components/ProductList'
+import ProductList, { sampleProducts } from './components/ProductList'
 import DarkModeToggle from './components/DarkModeToggle'
 import Cart from './components/Cart'
 
@@ -37,7 +37,7 @@ const App = () => {
 
       {/* TODO: Implement and render Cart component */}
        <Cart items={cartItems} />
-       
+
        <ProductList 
         products={sampleProducts} 
         category={selectedCategory} 
