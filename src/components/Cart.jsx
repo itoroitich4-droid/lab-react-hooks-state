@@ -11,6 +11,7 @@ const Cart = ({ items }) => {
       </ul>
     </div>
   )
-}
+};
 
-export default Cart
+export default Cart;
+

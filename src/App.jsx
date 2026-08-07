@@ -36,8 +36,7 @@ const App = () => {
       </select>
 
       {/* TODO: Implement and render Cart component */}
-       <Cart items={cartItems} />
-
+      <Cart items={cartItems} />
        <ProductList 
         products={sampleProducts} 
         category={selectedCategory} 
