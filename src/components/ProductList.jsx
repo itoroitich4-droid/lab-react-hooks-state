@@ -13,8 +13,8 @@ const ProductList = () => {
       <h2>Available Products</h2>
 
       {/* TODO: Filter sample data using selected category */}
-      {sampleProducts.map((product) => (
-        <ProductCard key={product.id} product={product} />
+      {filteredProducts.map((product) => (
+        <ProductCard key={product.id} product={product} addToCart={addToCart} />
       ))}
     </div>
   )
